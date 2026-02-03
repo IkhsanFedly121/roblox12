@@ -80,8 +80,8 @@ gui.Parent = PlayerGui
 
 -- Logo Button (BULAT BIRU POLOS) - DIPERBAIKI
 local logoButton = Instance.new("ImageButton")
-logoButton.Size = UDim2.new(0,80,0,80)
-logoButton.Position = UDim2.new(0.05,0,0.1,0) 
+logoButton.Size = UDim2.new(0,50,0,50)
+logoButton.Position = UDim2.new(0.92, 45, 0.1, 0) 
 logoButton.BackgroundColor3 = Color3.fromRGB(0, 150, 255) 
 logoButton.BackgroundTransparency = 0.05 
 logoButton.Image = "" 
@@ -104,8 +104,8 @@ shadowLogo.Parent = logoButton
 local menuFrame = Instance.new("Frame")
 menuFrame.Name = "MainMenuFrame" 
 menuFrame.Size = UDim2.new(0,300,0,450)
-menuFrame.Position = UDim2.new(0.05, 90, 0.1, 0) 
-menuFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30) 
+menuFrame.Position = UDim2.new(0.92, -390, 0.1, 0)
+menuFrame.Position = UDim2.new(1, -100, 0.18, 0)
 menuFrame.BackgroundTransparency = 0 
 menuFrame.Visible = false
 menuFrame.Parent = gui
@@ -195,7 +195,7 @@ headerTitle.BackgroundTransparency = 1
 headerTitle.TextColor3 = Color3.fromRGB(255,215,0)
 headerTitle.Font = Enum.Font.SourceSansBold
 headerTitle.TextScaled = true
-headerTitle.Text = "DAFTAR HARGA PREMIUM"
+headerTitle.Text = "Cheat Sederhana"
 headerTitle.Parent = keyMenu
 
 -- Price List Frame
@@ -218,11 +218,11 @@ priceBorder.Parent = priceListFrame
 
 -- Price Items
 local priceItems = {
-    "6 JAM = Rp 5.000",
-    "1 HARI = Rp 10.000", 
-    "3 HARI = Rp 25.000",
-    "7 HARI = Rp 50.000",
-    "1 BULAN = Rp 100.000"
+    "Tobat Bang",
+    "jangan takut", 
+    "Jangan Kahwatir",
+    "Ini Kentut",
+    "Bukan Petir"
 }
 
 for i, priceText in ipairs(priceItems) do
@@ -256,7 +256,7 @@ contactLabel.BackgroundTransparency = 1
 contactLabel.TextColor3 = Color3.fromRGB(255,255,255)
 contactLabel.Font = Enum.Font.SourceSansBold
 contactLabel.TextScaled = true
-contactLabel.Text = "WhatsApp: 085805736859"
+contactLabel.Text = "Gass ken push top global"
 contactLabel.Parent = contactFrame
 
 -- Key Input Box - POSISI DIPERBAIKI
