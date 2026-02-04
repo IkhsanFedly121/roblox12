@@ -10,7 +10,7 @@ local HttpService = game:GetService("HttpService")
 -- Variabel Status
 local menuOpen = false 
 local keyValid = false
-local normalWalkSpeed = 16
+local normalWalkSpeed = normalWalkSpeed
 local keyRemainingSeconds = 0 
 -- >>> Global Toggles di sini (untuk diakses oleh loadstring/klon) <<<
 local flying = false
